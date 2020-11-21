@@ -1,5 +1,6 @@
 # header set x-frame-options SAMEORIGIN
 
+
 Options -Indexes
 
 RewriteEngine on
@@ -16,6 +17,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 RewriteRule ^index\.html$ / [R=301,L]
 
 
-ErrorDocument 404 https://nitestats.com/404
 
-ErrorDocument 403 https://nitestats.com/404
+ErrorDocument 404 https://fortniteprogress.com/404
+
+ErrorDocument 403 https://fortniteprogress.com/404
