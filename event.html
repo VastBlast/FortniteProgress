@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="/*background-color: black;*/">
 
 <head>
     <meta charset="utf-8">
@@ -13,17 +13,18 @@
     <meta property="og:type" content="website">
     <meta name="twitter:site" content="@FNProgress">
     <meta name="twitter:creator" content="summary">
-    <link rel="icon" type="image/png" sizes="1524x1524" href="assets/img/prof2.png?h=99dc9ee609b8ef739806caf5e06d6a1a">
-    <link rel="icon" type="image/png" sizes="1524x1524" href="assets/img/prof2.png?h=99dc9ee609b8ef739806caf5e06d6a1a">
-    <link rel="icon" type="image/png" sizes="1524x1524" href="assets/img/prof2.png?h=99dc9ee609b8ef739806caf5e06d6a1a">
-    <link rel="icon" type="image/png" sizes="1524x1524" href="assets/img/prof2.png?h=99dc9ee609b8ef739806caf5e06d6a1a">
-    <link rel="icon" type="image/png" sizes="1524x1524" href="assets/img/prof2.png?h=99dc9ee609b8ef739806caf5e06d6a1a">
+    <link rel="icon" type="image/png" sizes="750x750" href="assets/img/logo-s4-tp_sm.png?h=6a82c8457ed82bb6dbcf30c51a2f98c0">
+    <link rel="icon" type="image/png" sizes="750x750" href="assets/img/logo-s4-tp_sm.png?h=6a82c8457ed82bb6dbcf30c51a2f98c0">
+    <link rel="icon" type="image/png" sizes="750x750" href="assets/img/logo-s4-tp_sm.png?h=6a82c8457ed82bb6dbcf30c51a2f98c0">
+    <link rel="icon" type="image/png" sizes="750x750" href="assets/img/logo-s4-tp_sm.png?h=6a82c8457ed82bb6dbcf30c51a2f98c0">
+    <link rel="icon" type="image/png" sizes="750x750" href="assets/img/logo-s4-tp_sm.png?h=6a82c8457ed82bb6dbcf30c51a2f98c0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=176599e171e8750b9073335342a190db">
-    <link rel="stylesheet" href="assets/css/galaxy-1.min.css?h=b09bf4d9577f01d174f656725601f3e8">
-    <link rel="stylesheet" href="assets/css/galaxy.min.css?h=3a91a49a6585cd474c1d748922494e88">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=6e1b81aa2817919d5f9f463261b0624d">
+    <link rel="stylesheet" href="assets/css/galaxy.min.css?h=6870a6cc52a4baf2b5de83f46b465eda">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1DHDRSDYL"></script>
 <script>
@@ -33,25 +34,27 @@
 
   gtag('config', 'G-S1DHDRSDYL');
 </script>
-
-<link rel="stylesheet" href="assets/css/burbank.css">
 </head>
 
 <body id="particles-js" style="/*background: linear-gradient(180deg, #190f3d, #080514);*/background: radial-gradient(ellipse at top, #190f3d 0%, #080514 100%);">
     <header class="Header"></header>
-    <div class="container d-flex justify-content-center align-items-center align-content-center justify-content-lg-center" id="main">
+    <div class="container d-flex justify-content-center align-items-center align-content-center justify-content-lg-center" data-aos="fade" data-aos-duration="2000" data-aos-once="true" id="main">
         <div class="row row-cols-1">
             <div class="col">
-                <h1 class="text-center" style="font-family: 'Burbank Big Rg Bk';color: rgb(199,214,228);font-size: 50px;">Galactus Event Countdown<br></h1>
+                <h1 class="text-center" id="heading" style="font-family: 'Burbank Big Rg Bk';color: rgb(199,214,228);font-size: 40px;">Galactus Event Countdown<br></h1>
             </div>
-            <div class="col d-flex justify-content-center"><span class="text-center d-flex justify-content-center align-items-center align-content-center" style="background: rgb(199,214,228);padding: 5px 15px;font-family: 'Burbank Big Rg Bk';font-size: 40px;border-radius: 20px;padding-bottom: 0px;">07 : 23 : 43 : 11</span></div>
+            <div class="col d-flex justify-content-center"><span class="text-center" id="timer" style="background: rgb(199,214,228);padding: 5px 15px;font-family: 'Burbank Big Rg Bk';font-size: 40px;border-radius: 20px;padding-bottom: 0px;">L0 : AD : IN : GG</span></div>
+            <div class="col d-flex justify-content-center"
+                id="nav-links" style="margin-top: 20px;font-style: normal;font-family: Montserrat, sans-serif;font-weight: bold;"><a href="https://twitter.com/FNProgress" target="_blank">Twitter</a><a href="https://reddit.com/u/FNProgress" target="_blank">Reddit</a></div>
         </div>
     </div>
     <footer class="Footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="assets/js/event.min.js?h=fcd71455bcd3c23ae82830f91a667114"></script>
+    <script src="assets/js/script.min.js?h=be38833756eec81f7d0744dc18c888c9"></script>
+    <script src="assets/js/event.min.js?h=42a724a26ef8b292652ddc2ee1fbaf01"></script>
 </body>
 
 </html>
