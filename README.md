@@ -1,2 +1,2 @@
 # FortniteProgress
-Simple Bootstrap 4 UI for the fortniteprogress.com site.
+Simple Bootstrap 5 UI for the [fortniteprogress.com](https://fortniteprogress.com) site.
